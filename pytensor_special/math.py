@@ -26,3 +26,8 @@ def gammaincinv(a, z):
         Pytensor implementation of the inverse incomplete gamma function
     """
 
+@scalar_elemwise
+def betaincinv(a, b, z):
+    """
+        Pytensor implementation of the inverse incomplete beta function
+    """
